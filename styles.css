@@ -2,7 +2,7 @@
     position: relative;
     color: white;
     text-align: center;
-    padding: 55px;
+    padding: 5px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://vastphotos.com/files/uploads/photos/11737/chicago-sunset-photo-l.jpg?v=20240219145844');
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,10 +15,23 @@
     color: black;
   }
 
+  .header h2,
+  .header .contact-info p {
+    color: gray;
+  }
+
 .navigation ul li a {
     font-size: 19.25px; 
   }
   
+  .header h3,
+  .header .contact-info p {
+    color: lightslategray;
+  }
+
+.navigation ul li a {
+    font-size: 19.25px; 
+  }
 
   body {
     background-image: url('https://ih1.redbubble.net/image.88718373.9037/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'), linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
